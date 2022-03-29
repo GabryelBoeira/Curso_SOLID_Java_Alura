@@ -9,6 +9,7 @@ import java.math.RoundingMode;
 
 public class ValidacaoPercentualReajuste implements ValidacaoReajuste {
 
+
     @Override
     public void validar(Funcionario funcionario, BigDecimal aumento) {
 
