@@ -26,6 +26,10 @@ public class Funcionario {
 		this.dataUltimoReajuste = LocalDate.now();
 	}
 
+	public void promover(final Cargo novoCargo) {
+		this.cargo = novoCargo;
+	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -66,7 +70,4 @@ public class Funcionario {
 		this.dataUltimoReajuste = dataUltimoReajuste;
 	}
 
-	public void promover(final Cargo novoCargo) {
-		this.cargo = novoCargo;
-	}
 }
