@@ -9,7 +9,7 @@ public class PromocaoService {
     public void promover(Funcionario funcionario, boolean metaBatida) {
         Cargo cargoAtual = funcionario.getDadosPessoais().getCargo();
 
-        if (Cargo.GERENTE.equals(cargoAtual)) {
+        if (Cargo.GERENTE == cargoAtual) {
             throw new ValidacaoException("Gerentes nao podem ser promovidos");
         }
 
