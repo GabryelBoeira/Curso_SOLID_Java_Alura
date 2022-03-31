@@ -22,9 +22,4 @@ public class Anuenio implements Reajuste {
     public LocalDate data() {
         return null;
     }
-
-    @Override
-    public BigDecimal valorImpostoDeRenda() {
-        return BigDecimal.ZERO;
-    }
 }
