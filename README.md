@@ -8,3 +8,7 @@ Curso da Alura de como codificar em Java utilizando o paradigma do SOLID para me
 * Entenda a fundo os ganhos do encapsulamento
 * Domine os princípios de código sólido
 * Técnicas e exemplos em Java
+
+[link para o certificado de conclusão ](https://cursos.alura.com.br/user/gabryelboeira/course/solid-orientacao-objetos-java/certificate)
+
+**_ Curso Concluido _**
